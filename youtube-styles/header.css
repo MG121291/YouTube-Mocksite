@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   flex-direction: row;
@@ -52,7 +53,6 @@
   border-color: #CCCCCC;
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  width: 0;
 }
 
 .search-bar::placeholder {
@@ -61,7 +61,7 @@
 
 
 .search-button {
-  height: 46px;
+  height: 47px;
   width: 84px;
   background-color: #f7f7f7;
   border-width: 1px;
@@ -191,4 +191,25 @@
   margin-top: 4px;
   margin-right: 24px;
   cursor: pointer;
+}
+
+@media (max-width: 810px) {
+  .right-section, .youtube-logo {
+    width: 0px;
+  }
+  .middle-section {
+   
+    margin-left: 0px;
+    margin-right: 15px;
+    max-width: 600px;
+  }
+  .search-bar {
+    height: 28px;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    height: 30px;
+    width: 64px;  
+  }
 }
