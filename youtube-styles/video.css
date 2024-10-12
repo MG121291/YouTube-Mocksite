@@ -64,11 +64,17 @@
   row-gap: 40px;
 }
 
+@media (max-width: 430px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*
 @media (max-width: 800px) {
   .container-grid {
     grid-template-columns: 1fr 1fr;
   }
-}
+} */
 @media (min-width: 801px) and (max-width: 1099px) {
   .container-grid {
     grid-template-columns: 1fr 1fr 1fr;

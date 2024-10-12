@@ -194,8 +194,14 @@
 }
 
 @media (max-width: 810px) {
-  .right-section, .youtube-logo {
+  .hamburger-menu {
     width: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .youtube-logo {
+    height: 18px;
+    margin-right: 10px;
   }
   .middle-section {
    
@@ -209,7 +215,10 @@
   }
   
   .search-button {
-    height: 30px;
-    width: 64px;  
+    height: 31px;
+    width: 45px;  
+  }
+  .spy-glass {
+    height: 18px;
   }
 }
