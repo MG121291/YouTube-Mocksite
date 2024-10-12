@@ -78,8 +78,6 @@ position: relative;
     left: 0; /* Ensure left is set to 0 */
     right: 0;
     top: auto; /* Reset top to auto */
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   .sidebar-link {
@@ -111,5 +109,11 @@ position: relative;
   }
   .notifications-2 {
     display: unset;
+  }
+  .right-sidebar {
+    margin-right: 10px;
+  }
+  .left-sidebar {
+    margin-left: 10px;
   }
 }
