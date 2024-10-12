@@ -52,7 +52,6 @@
   border-color: #CCCCCC;
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  width: 0;
 }
 
 .search-bar::placeholder {
@@ -61,7 +60,7 @@
 
 
 .search-button {
-  height: 46px;
+  height: 47px;
   width: 84px;
   background-color: #f7f7f7;
   border-width: 1px;
@@ -161,7 +160,7 @@
   cursor: pointer;
 }
 
-.notifications {
+.notifications-2 {
   height: 24px;
   margin-top: 4px;
   cursor: pointer;
@@ -191,4 +190,38 @@
   margin-top: 4px;
   margin-right: 24px;
   cursor: pointer;
+}
+
+@media (max-width: 430px) {
+  .hamburger-menu {
+    width: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .youtube-logo {
+    height: 18px;
+    margin-right: 10px;
+  }
+  .middle-section {
+    margin-left: 0px;
+    margin-right: 15px;
+    max-width: 600px;
+    margin-right: 15px;
+  }
+  .search-bar {
+    height: 28px;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    height: 31px;
+    width: 45px; 
+  }
+  .spy-glass {
+    height: 18px;
+  }
+  .right-section {
+    width: 0px;
+    padding-left: 5px;
+  }
 }
